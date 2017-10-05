@@ -8,7 +8,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort_by { |x| x.length }
+  array.sort_by { |element| element.length }
 end
 
 def swap_elements(array)
@@ -21,3 +21,11 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  # change 3rd character of each element in array to a dollar sign
+  array.each { |element| element[2] == '$' }
+end
+
+ractice #kesha_maker taking an array as an input, change the 3rd character of each element to a dollar sign.
+rspec ./spec/collections_practice_spec.rb:50 # collections practice #fi

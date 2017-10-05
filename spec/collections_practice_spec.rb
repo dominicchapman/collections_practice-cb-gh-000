@@ -33,7 +33,7 @@ describe 'collections practice' do
   # Question 4a
   describe '#swap_elements_from_to' do
     it 'swap nth element with xth element of an array' do
-      expect(swap_elements(["a", "b", "c"],2,1)).to eq(["aa", "c", "b"])
+      expect(swap_elements(["a", "b", "c"],2,1)).to eq(["a", "c", "b"])
     end
   end
 

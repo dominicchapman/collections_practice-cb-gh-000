@@ -24,6 +24,6 @@ end
 
 def kesha_maker(array)
   # change 3rd character of each element in array to a dollar sign
-  altered = array.each { |element| element[2] == '$' }
-  altered
+  kesha_array = array.each { |element| element[2] = '$' }
+  
 end

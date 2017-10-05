@@ -26,3 +26,7 @@ def kesha_maker(array)
   # change 3rd character of each element in array to a dollar sign
   kesha_array = array.each { |element| element[2] = '$' }
 end
+
+def find_a(array)
+  array.find_all { |element| element.start_with?('a') }
+end

@@ -32,7 +32,18 @@ def find_a(array)
 end
 
 def sum_array(array)
-  total = -
+  total = 0
   array.each { |element| total += element }
   total
+end
+
+def add_s(array)
+  # Add an "s" to each word in the array except for the 2nd element
+  array.each do |element|
+    if array[1]
+      element
+    else
+      element + 's'
+    end
+  end
 end

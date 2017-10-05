@@ -13,8 +13,6 @@ end
 
 def swap_elements(array)
   # swap second and third elements, i.e. index 1 and 2
-  swapped = array
-  swapped[2] = array[1]
-  swapped[1] = array[2]
-  return swapped
+  # we can swap values with 'parallel assignment'
+  array[1], array[2] = array[2], array[1]
 end

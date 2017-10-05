@@ -39,7 +39,7 @@ end
 
 def add_s(array)
   # Add an "s" to each word in the array except for the 2nd element
-  array.each do |element|
+  array.collect do |element|
     if array[1] == element
       element
     else
